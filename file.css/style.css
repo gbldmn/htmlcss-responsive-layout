@@ -11,7 +11,8 @@ header {
 .container {
     width: 70%;
     margin: auto;
-    background-color: blue;
+    
+    
 }
 .button-white {                
     border-color: white;
@@ -37,6 +38,7 @@ ul li {
 .logo {
     padding: 10px;
 }
+     /* media query */
 @media screen and (max-width: 480px) {
     .container {
         width: 100%;
@@ -68,5 +70,95 @@ ul li {
     }
 }
 /*     primo blocco      */
-    
 
+
+.container-2 {
+    width: 100%;
+    border: 2px solid blue;
+}
+.container-3 {
+    width: 70%;
+    margin: auto;
+    border: 2px solid yellow;
+
+}
+.container-4 {
+    width: 80%;
+    margin: auto;
+    border: 2px solid fuchsia;
+    margin-top: 20px;
+}
+.box-1 {
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid blue;
+    
+    background-color: rgb(188, 188, 242);
+ 
+}
+.box-2 {
+    width: 30%;
+    border-radius: 15px;
+    border: 2px solid blue;
+    margin-left: 6px;
+    background-color: rgb(188, 188, 242);
+}
+.flex-2 {
+    display: flex;
+}
+.box-3 {
+    width: 34%;
+    border-radius: 15px;
+    border: 2px solid blue;
+    margin-left: 6px;
+    background-color: rgb(188, 188, 242);
+    
+    
+}
+.button-blue {
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-color: blue;
+}
+ .get{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.margin-left {
+    margin-left: 10px;
+    padding: 5px;
+}
+.font-size {
+    font-size: 40px;
+    color: blue;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+div > h5 {
+    color: blue;
+    margin-left: 35%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ /* media query */
+ @media screen and (max-width: 480px) {
+    .container-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+  
+ }
+ @media screen and (max-width: 768px) {
+        .container-3 {
+            width: 100%;
+        }
+ }
