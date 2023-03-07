@@ -14,9 +14,7 @@ ul li:last-child {
 a {
     text-decoration: none;
 }
-body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 header {
     background-color: #3286FC;
     color: white;
@@ -234,11 +232,51 @@ header nav ul {
     width: 200px;
     aspect-ratio: 1;
     margin-top: 1.25rem;
-} 
+}  
+
+        /* sesta sezione */
+ 
+button {
+    content: '\21E8';
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    color: #3286FC;
+    text-align: center;
+    border-radius: 35%;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+}
+.involucro h3 {
+    color: white;
+    padding: 10px;
+}
+.involucro {
+    background-color: #3286FC;
+    text-align: center;
+}
+.involucro span {
+    color: white;
+}
+
+.involucro h1 {
+    color: chartreuse;
+    padding: 10px;
+}
 
 
-
-
+            /* footer  */
+.three {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.three {
+    padding: 30px;
+}
          
 
           /* media-query */
@@ -288,10 +326,23 @@ header nav ul {
     }
     .box img {
         margin-left: 7rem;
+    } 
+    .btn-blue-2 {
+        margin-left: 8rem;
     }    
- 
+    
+          /* sesta sezione */
+    .container {
+        padding: 5rem;
+    }   
+    
+         /*  footer */
+    .three {
+        padding: 5rem;
+    }
+} 
 
-}
+
    
 
 
@@ -329,6 +380,16 @@ header nav ul {
     .container {     
     padding: 2.5rem; 
     }
-}
+
+          /* sesta sezione */
+    .container {
+        padding: 5rem;
+    }     
+    
+       /*  footer */
+    .three {
+        padding: 5rem;
+    }
+} 
 
 
