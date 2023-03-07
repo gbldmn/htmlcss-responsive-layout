@@ -43,9 +43,10 @@ header nav ul {
 
      /* prima sezione */
 
-#intro {
+#intro,
+#strategy-planning {
     padding: 2.5rem;
-}     
+}
 
 .container {
     max-width: 1200px;
@@ -100,6 +101,50 @@ header nav ul {
     color: #3286FC;
     margin-bottom: 1.5rem;
 }
+
+        /* seconda sezione */
+
+.container-100 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#strategy-planning {
+    background-color: #9692e3;
+    color: white;
+}
+
+#strategy-planning img {
+    width: 100%;
+}
+
+#strategy-planning col {
+    padding: 2rem;
+}
+
+#strategy-planning h {
+    margin-bottom: 1.5rem;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+}
+
+.btn-rounded {
+    background-color: #9692e3;
+    color: black;
+    border-radius: 100%;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+
+
+}
+
          /* tablet */
 
 @media only screen and (min-width: 768px){
@@ -109,7 +154,7 @@ header nav ul {
         display: block;
     }
     #intro>div {
-      justify-content: space-between;  
+      justify-content: space-between;
     }
      .card {
             flex-basis: calc(100% / 3 - 2%);
@@ -124,7 +169,7 @@ header nav ul {
     }
 }
           /* desktop */
- 
+
 @media only screen and (min-width: 992px){
     header nav ul {
         display: inline-block;
@@ -137,6 +182,17 @@ header nav ul {
     #intro .card:first-child {
     display: flex;
     }
+
+           /* seconda sezione */
+    #strategy-planning .col {
+    flex-basis: 50%;    
+    }
+    #strategy-planning .card-white {
+        align-self: flex-end;
+    }
+    #strategy-planning .card-white img {
+    width: 50%;
+    }
 }
-   
+
 
