@@ -178,8 +178,43 @@ header nav ul {
 #testimonials .testimonial p::after {
     content: "\f10d";
     font-weight: 900;
-}
+} 
+  
+      /* quarta sezione */
 
+.card-2 {
+    flex-basis: 100%;
+    background-color: #baddff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    
+    margin-bottom: 2rem;
+}
+.btn-blue-2 {
+    background-color: #3286FC;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+    
+}
+.intro h2 {
+    text-align: center;
+    
+
+}
+.card-2 h2 {
+    text-align: left;
+    color: #3286FC;
+}
+.container {
+    padding: 2rem;
+}
+.card-2 h3 {
+    color: #3286FC;
+}
+.intro {
+    background-color: #3286FC;
+}
          
 
           /* media-query */
@@ -214,7 +249,18 @@ header nav ul {
     } 
     #testimonials .testimonial img {
         margin-right: 1.5rem;
-    }       
+    }     
+    
+           /* quarta sezione */
+    .card-2 {
+        flex-basis: calc(100% / 2 - 1%);
+    }  
+    .container {
+        padding: 2.5rem;
+    } 
+
+   
+
 }
 
           /* desktop */
@@ -241,6 +287,14 @@ header nav ul {
     }
     #strategy-planning .card-white img {
     width: 50%;
+    }
+          /* quarta sezione */
+    
+    .card-2 {
+        flex-basis: calc(100% / 3);
+    }
+    .container {     
+    padding: 2.5rem; 
     }
 }
 
