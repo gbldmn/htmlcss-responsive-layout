@@ -44,7 +44,8 @@ header nav ul {
      /* prima sezione */
 
 #intro,
-#strategy-planning {
+#strategy-planning,
+#testimonials {
     padding: 2.5rem;
 }
 
@@ -141,9 +142,47 @@ header nav ul {
     width: 45px;
     text-align: center;
     line-height: 45px;
-
-
 }
+      /* terza sezione */
+#testimonials .testimonial img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    aspect-ratio: 1;
+} 
+#testimonials .testimonial {
+    background-color: #9692e3;
+    color: white;
+    padding: 1.25rem;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+}
+
+#testimonials {
+    text-align: center;
+}    
+
+#testimonials h2 {
+    margin-bottom: 1.25rem;
+}    
+   
+#testimonials p {
+    margin-bottom: 1.5rem;
+} 
+
+#testimonials .testimonial p::before {
+    content: "\f10d";
+    font-weight: 900;
+} 
+
+#testimonials .testimonial p::after {
+    content: "\f10d";
+    font-weight: 900;
+}
+
+         
+
+          /* media-query */
 
          /* tablet */
 
@@ -167,7 +206,17 @@ header nav ul {
     #intro .card:first-child {
         flex-basis: calc(66.66% - 1%);
     }
+
+           /* terza sezione */
+    #testimonials .testimonial {
+        display: flex;
+        align-items: center;
+    } 
+    #testimonials .testimonial img {
+        margin-right: 1.5rem;
+    }       
 }
+
           /* desktop */
 
 @media only screen and (min-width: 992px){
