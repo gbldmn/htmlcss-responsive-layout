@@ -195,11 +195,16 @@ header nav ul {
     color: white;
     padding: 3px;
     border-radius: 20px;
+    padding: 8px 12px;
     
+    
+}
+.card-2 p {
+    margin-bottom: 10px;
 }
 .intro h2 {
     text-align: center;
-    
+    margin-bottom: 1.5rem;
 
 }
 .card-2 h2 {
@@ -215,6 +220,25 @@ header nav ul {
 .intro {
     background-color: #3286FC;
 }
+
+         /* quinta sezione */
+ 
+.box h3 {
+   color: #3286FC;
+   margin-bottom: 10px;
+   margin-top: 20px;
+}    
+.box img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    aspect-ratio: 1;
+    margin-top: 1.25rem;
+} 
+
+
+
+
          
 
           /* media-query */
@@ -258,10 +282,19 @@ header nav ul {
     .container {
         padding: 2.5rem;
     } 
-
-   
+          /* quinta sezione */
+    .box {
+        flex-basis: 50%;
+    }
+    .box img {
+        margin-left: 7rem;
+    }    
+ 
 
 }
+   
+
+
 
           /* desktop */
 
