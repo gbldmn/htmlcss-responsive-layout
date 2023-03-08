@@ -316,6 +316,7 @@ button {
            /* quarta sezione */
     .card-2 {
         flex-basis: calc(100% / 2 - 1%);
+    
     }  
     .container {
         padding: 2.5rem;
