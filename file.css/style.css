@@ -240,10 +240,10 @@ button {
     content: '\21E8';
     display: inline-block;
     width: 100px;
-    height: 40px;
+    height: 25px;
     color: #3286FC;
     text-align: center;
-    border-radius: 35%;
+    border-radius: 10%;
     background-color: white;
     font-weight: bold;
     margin-top: 20px;
@@ -266,7 +266,21 @@ button {
     color: chartreuse;
     padding: 10px;
 }
-
+.btn-blue-3 {
+    background-color: #3286FC;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+   
+}
+.cat {
+    text-align: center;
+    line-height: 35px;
+}
+.dog {
+    text-align: left;
+    line-height: 35px;
+}
 
             /* footer  */
 .three {
@@ -276,6 +290,12 @@ button {
 }
 .three {
     padding: 30px;
+    
+}
+.font {
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
 }
          
 
@@ -315,7 +335,8 @@ button {
     
            /* quarta sezione */
     .card-2 {
-        flex-basis: calc(100% / 2 - 1%);
+        flex-basis: calc(100% / 2 - 4%);
+        margin-left: 20px;
     
     }  
     .container {
@@ -341,6 +362,15 @@ button {
     .three {
         padding: 5rem;
     }
+    .cat {
+        text-align: right;
+        line-height: 35px;
+    }
+    .three {
+        padding: 20px;
+        
+    }
+
 } 
 
 
@@ -376,7 +406,7 @@ button {
           /* quarta sezione */
     
     .card-2 {
-        flex-basis: calc(100% / 3);
+        flex-basis: calc(100% / 3 - 4%);
     }
     .container {     
     padding: 2.5rem; 
@@ -390,6 +420,10 @@ button {
        /*  footer */
     .three {
         padding: 5rem;
+    }
+    .three {
+        padding: 20px;
+        
     }
 } 
 
